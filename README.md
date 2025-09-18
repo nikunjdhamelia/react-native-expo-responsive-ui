@@ -42,6 +42,7 @@ Returns an object with:
 
 ## Usage Example
 
+```
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import { useResponsive } from 'react-native-expo-responsive-ui';
@@ -74,7 +75,7 @@ flex: 1,
 backgroundColor: '#fff',
 },
 });
-
+```
 ---
 
 ## Notes
