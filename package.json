@@ -1,0 +1,31 @@
+{
+  "name": "react-native-expo-responsive-ui",
+  "version": "1.0.0",
+  "description": "Responsive UI library with foldable device support for React Native Expo",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "responsive",
+    "foldable",
+    "ui",
+    "hooks"
+  ],
+  "author": "Niks",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-native": ">=0.70.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  }
+}
